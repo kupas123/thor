@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "chmod 777 az gas && ./az && ./gas && next build",
+    "build": "chmod 777 az && ./az && next build",
     "start": "next start",
     "lint": "next lint"
   },
