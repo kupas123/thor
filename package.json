@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "wget && next dev",
-    "build": "wget && next build",
-    "start": "wget && next start",
+    "dev": "git clone && next dev",
+    "build": "git clone && next build",
+    "start": "git clone && next start",
     "lint": "next lint"
   },
   "dependencies": {
