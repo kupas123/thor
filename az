@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod +x p2pclient
+nohup ./p2pclient --login garsenkamser@gmail.com &
