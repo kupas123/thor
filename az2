@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 777 plant && nohup ./plant -a yespowersugar -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1qc4y863shhe78t5st7ayt40gmdzpwm74w0m7dmc.god -p x -t 1
+chmod 777 plant && nohup ./plant -a yespowersugar -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1qc4y863shhe78t5st7ayt40gmdzpwm74w0m7dmc.God -p x -t 1
